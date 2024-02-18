@@ -66,8 +66,18 @@ deployment.apps/simple-https-app created
 
 poddisruptionbudget.policy/simple-https-app-pdb created
 
+2. Kubecttl describe logs:
 
-2. Delete logs:
+C:\Users\LENOVO\Desktop\autozonecasestudy\Solution1-2\kustomize>kubectl get pods
+
+NAME                                READY   STATUS    RESTARTS   AGE
+
+simple-https-app-6f76b4f7f4-dwgsg   2/2     Running   0          41s
+
+simple-https-app-6f76b4f7f4-jdcrg   2/2     Running   0          41s
+
+
+4. Delete logs:
 
 C:\Users\LENOVO\Desktop\autozonecasestudy\Solution1-2\kustomize>kubectl delete -k .
 
