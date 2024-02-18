@@ -11,11 +11,14 @@ Pre-requisities for Cluster setup:
 Execution Steps:
 
 1. (OPTIONAL) Create certs if you dont have any dummy using: openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes
+   
 2. Docker Image Creation:
 
-docker build -t simple-https-app . 
-docker tag simple-https-app jitender1987/autozonecasestudy:latest 
-docker push jitender1987/autozonecasestudy:latest
+a. docker build -t simple-https-app .
+
+b. docker tag simple-https-app jitender1987/autozonecasestudy:latest
+
+c. docker push jitender1987/autozonecasestudy:latest
 
 3. Enable service mesh in namespace
 
@@ -24,9 +27,11 @@ kubectl label namespace default istio-injection=enabled --overwrite
 
 4. Deployment of application using kustomize:
 
-kubectl create secret generic my-tls-secret --from-file=cert.pem --from-file=key.pem
-cd kustomize
-kubectl apply -k .
+a. kubectl create secret generic my-tls-secret --from-file=cert.pem --from-file=key.pem
+
+b. cd kustomize
+
+c. kubectl apply -k .
 
 5. Deployment deletion using kubectl delete -k .
 
