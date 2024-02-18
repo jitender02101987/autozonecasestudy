@@ -43,18 +43,12 @@ Verification Steps:
 2. Checking health probes
 
 Startup probe: <Load Balancer URL>:5000/health/startup
-Screenshot
 
 Liveness probe: <Load Balancer URL>:5000/health/liveness
-Screenshot
 
 Readiness probe: <Load Balancer URL>:5000/health/readiness
-Screenshot
 
-3. Workload Dashboard:
-
-4. Service mess dashboard:
-
+Screenshot: All the application deployment screenshot are placed in Result1-2 folder
 
 Logs:
 
