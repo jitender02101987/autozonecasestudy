@@ -55,18 +55,28 @@ Logs:
 1. Apply logs:
 
 C:\Users\LENOVO\Desktop\autozonecasestudy\Solution1-2\kustomize>kubectl apply -k .
+
 service/simple-https-app-service created
+
 persistentvolume/simple-https-app-pv created
+
 persistentvolumeclaim/simple-https-app-pvc created
+
 deployment.apps/simple-https-app created
+
 poddisruptionbudget.policy/simple-https-app-pdb created
 
 
 2. Delete logs:
 
 C:\Users\LENOVO\Desktop\autozonecasestudy\Solution1-2\kustomize>kubectl delete -k .
+
 service "simple-https-app-service" deleted
+
 persistentvolume "simple-https-app-pv" deleted
+
 persistentvolumeclaim "simple-https-app-pvc" deleted
+
 deployment.apps "simple-https-app" deleted
+
 poddisruptionbudget.policy "simple-https-app-pdb" deleted
