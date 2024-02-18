@@ -1,0 +1,38 @@
+PS C:\users\LENOVO\Desktop\autozonecasestudy\Solution3\terraform> ./terraform.exe destroy -var-file="pubsub.tfvars" -auto-approve
+module.pubsub["test1"].google_pubsub_topic.topic[0]: Refreshing state... [id=projects/autozonecasestudy/topics/test1]
+module.pubsub["test2"].google_pubsub_topic.topic[0]: Refreshing state... [id=projects/autozonecasestudy/topics/test2]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # module.pubsub["test1"].google_pubsub_topic.topic[0] will be destroyed
+  - resource "google_pubsub_topic" "topic" {
+      - effective_labels           = {} -> null
+      - id                         = "projects/autozonecasestudy/topics/test1" -> null
+      - labels                     = {} -> null
+      - message_retention_duration = "600s" -> null
+      - name                       = "test1" -> null
+      - project                    = "autozonecasestudy" -> null
+      - terraform_labels           = {} -> null
+    }
+
+  # module.pubsub["test2"].google_pubsub_topic.topic[0] will be destroyed
+  - resource "google_pubsub_topic" "topic" {
+      - effective_labels           = {} -> null
+      - id                         = "projects/autozonecasestudy/topics/test2" -> null
+      - labels                     = {} -> null
+      - message_retention_duration = "600s" -> null
+      - name                       = "test2" -> null
+      - project                    = "autozonecasestudy" -> null
+      - terraform_labels           = {} -> null
+    }
+
+Plan: 0 to add, 0 to change, 2 to destroy.
+module.pubsub["test1"].google_pubsub_topic.topic[0]: Destroying... [id=projects/autozonecasestudy/topics/test1]
+module.pubsub["test2"].google_pubsub_topic.topic[0]: Destroying... [id=projects/autozonecasestudy/topics/test2]
+module.pubsub["test2"].google_pubsub_topic.topic[0]: Destruction complete after 9s
+module.pubsub["test1"].google_pubsub_topic.topic[0]: Destruction complete after 10s
+
+Destroy complete! Resources: 2 destroyed.

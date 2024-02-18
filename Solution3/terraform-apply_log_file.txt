@@ -1,0 +1,45 @@
+PS C:\users\LENOVO\Desktop\autozonecasestudy\Solution3\terraform> ./terraform.exe apply -var-file="pubsub.tfvars" -auto-approve
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # module.pubsub["test1"].google_pubsub_topic.topic[0] will be created
+  + resource "google_pubsub_topic" "topic" {
+      + effective_labels           = (known after apply)
+      + id                         = (known after apply)
+      + message_retention_duration = "600s"
+      + name                       = "test1"
+      + project                    = "autozonecasestudy"
+      + terraform_labels           = (known after apply)
+
+      + message_storage_policy {
+          + allowed_persistence_regions = []
+        }
+    }
+
+  # module.pubsub["test2"].google_pubsub_topic.topic[0] will be created
+  + resource "google_pubsub_topic" "topic" {
+      + effective_labels           = (known after apply)
+      + id                         = (known after apply)
+      + message_retention_duration = "600s"
+      + name                       = "test2"
+      + project                    = "autozonecasestudy"
+      + terraform_labels           = (known after apply)
+
+      + message_storage_policy {
+          + allowed_persistence_regions = []
+        }
+    }
+
+Plan: 2 to add, 0 to change, 0 to destroy.
+module.pubsub["test2"].google_pubsub_topic.topic[0]: Creating...
+module.pubsub["test1"].google_pubsub_topic.topic[0]: Creating...
+module.pubsub["test2"].google_pubsub_topic.topic[0]: Still creating... [10s elapsed]
+module.pubsub["test1"].google_pubsub_topic.topic[0]: Still creating... [10s elapsed]
+module.pubsub["test1"].google_pubsub_topic.topic[0]: Creation complete after 19s [id=projects/autozonecasestudy/topics/test1]
+module.pubsub["test2"].google_pubsub_topic.topic[0]: Creation complete after 19s [id=projects/autozonecasestudy/topics/test2]
+
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+PS C:\users\LENOVO\Desktop\autozonecasestudy\Solution3\terraform>
