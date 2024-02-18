@@ -4,6 +4,8 @@ Solution 1-2 - Directory contains solution of 1st & 2nd challenge
 
 Solution 3 - Directory contains solution of 3rd challenge
 
+Result 1-2 - Snippets for the asked configuration
+
 Note: Please follow above solution specific directories for more details.
 
 In order to do the case study: a project autozonecasestudy was created.
