@@ -38,15 +38,15 @@ c. kubectl apply -k .
 
 Verification Steps:
 
-1. Application Up and running via launching <Load Balancer URL>:5000/health
+1. Application Up and running via launching LoadBalancerIP:5000/health
 
 2. Checking health probes
 
-Startup probe: <Load Balancer URL>:5000/health/startup
+Startup probe: LoadBalancerIP:5000/health/startup
 
-Liveness probe: <Load Balancer URL>:5000/health/liveness
+Liveness probe: LoadBalancerIP:5000/health/liveness
 
-Readiness probe: <Load Balancer URL>:5000/health/readiness
+Readiness probe: LoadBalancerIP:5000/health/readiness
 
 Screenshot: All the application deployment screenshot are placed in Result1-2 folder
 
