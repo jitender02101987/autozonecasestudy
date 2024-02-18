@@ -25,12 +25,17 @@ Infrastructure created via IAC:-
 
 The Terraform resources will consists of following structure:
 
-variable.tf - It contain the declarations for variables.
-pubsub.tfvars - The file to pass the terraform variables values.
-provider.tf - terraform provider
-/modules - modules
-main.tf - entry point
-version.tf - version of providers to be used
+a. variable.tf - It contain the declarations for variables.
+
+b. pubsub.tfvars - The file to pass the terraform variables values.
+
+c. provider.tf - terraform provider 
+
+d. /modules - modules 
+
+e. main.tf - entry point  
+
+f. version.tf - version of providers to be used
 
 Modules
 
