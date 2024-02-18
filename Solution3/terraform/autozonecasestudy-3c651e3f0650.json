@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "autozonecasestudy",
+  "private_key_id": "3c651e3f065014225e46c482a12ac78f9edcc74b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDPmY5TwgI4VU4k\nWkSL4esgzdqiC+y8o65UvUbnIWy8KDGIOGOu/CvYnF2KLJcVxlzP4ic1WdGx+bXe\n8ncjaVaTWLPVJfbsVkzovyJsREiBe6kxC41jSAVDf491xHXyX3ALEjflbhHWizY1\nknf39USO9xJc0xzGM40csOVrfAybMEU2lwEITxZiESxSEjjgTWbnrFFiscKC5/LG\n7TUSJ1F3534lYhQ8M4cqsp+CxbCbz2HHUKhQ6isilTbwPhidaEgTNhW9ruqmkoBI\nINMUaVqVF++8g3rPMt53mgtF4Q0lL2bXLPVj8Zy1oQTHpqCPO+mLkVnGKYL1WdQW\nrlxJ3fTxAgMBAAECggEAYOxC0GUMT0u4g21ngl10PukNEcn6ean7utFx2Hg5AXHM\nilo1ZB2UxPlgDKI72a02aNIf1x87sVmx6UiPigdkpb9smm+ypG24U5PlGOIabeWT\nvPO1S6x01KoqCuQx4vpe37ReR24HwwBUy1c6TpiCrTK6Ln9b+EdaMxJ90hxk8FCV\n5bin1HhMFw3osQPNVaEby+SDJibtQQxoZQvDq6+GJujZfjX/CBC84idYZ7hHcbU3\nOA2seVYCfKh5GujDXOpYzYG4TLsyWU66WhxFQBOsEfw1jZOCOODJ/pHy5huCOWeZ\nW27ePh7RFJCwh2/JSgjd9eMcHj4LUbZAsnv9FpiRvwKBgQD0daEXCNhealApmotY\ntZzDIwaST2+wmGplawDPoB6HBZBvfS9PMNEXFwahMtnAYCOCCwLDF7PHYMmcs8Af\n3Md8LprrRkjk3TacdKwmbBhxlcw5G3E63V43hu54HAejz9C+TEeUohSAVZvr1MEo\nRsZUm2hKjoc5tjQ1F5yp+qlMuwKBgQDZZndJsOH2YnRWDdRSv85RJ8cVSMd6TaN8\nvTBqa3xbbwXM+20WddTtmE2Q/g1NrTkMzxNrmugFMwsHOMydycmzDJ+zxt+x0pHt\n2cR0zGtDlhpmVwir7iyhBZiGLpxWAuWCtlemGb4pJuo6HhY4gEOMij68zWrX/Aui\nh4DX4i6gQwKBgQDsQNZrdY/uR16rpoEvPW2AJVSPiBfQGq0Q0MXa4ss+AIGjTd+v\n7+TTJNyyY3uQcRk/77Y+p6SGdqLCP/HYmT1tZXkxEh8WmDfUIunQxD0nYPca5cub\ncR9CGLRU/fngNdJuZzfyjGW11Ya390ipzSSV1g+HppFHlDCGcwhkOizuSwKBgH7H\n1asA31W7JtMEb5zuRFhplR0he0skucHF5tU456W+wig/O+fMQadpmVqD/agd69Y/\ncLjg9owJr1W/1vvxsJGdPAkwYkWmYfnOdFYU3Dzm7XBfMyxo0lf5FnCx//Pc7pFi\n2wx/mLkQ+6l24EiE7F+qQ1oBhVx9nR9kXEwJmF1XAoGAM64ANHQBr0OzDino7ZbK\nRgMwpd0iiNGwHdLAkkSj28tDB/KDlBmPxaGUF6xywrGkGGV/+sXU8sjl5+Tw6+51\nYh/bH2cXVcXtCfj5P7DjP0SdVeFVnl08Kq3zQ1hPaw0+A7qP1OThlSAvOAIGPsTd\ne4RlRMCR7yJBZVMwNmTd0R8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sa-autozone-tf@autozonecasestudy.iam.gserviceaccount.com",
+  "client_id": "116346227775080267733",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sa-autozone-tf%40autozonecasestudy.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
