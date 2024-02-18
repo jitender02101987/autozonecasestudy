@@ -11,6 +11,7 @@ In order to do the case study: a project autozonecasestudy was created.
 project deletion logs:
 
 C:\Users\LENOVO\Desktop\autozonecasestudy\Solution1-2\kustomize>gcloud projects delete autozonecasestudy
+
 Your project will be deleted.
 
 Do you want to continue (Y/n)?  y
